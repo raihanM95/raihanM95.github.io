@@ -7224,6 +7224,178 @@ Created using IcoMoon - icomoon.io
   }
 }
 
+/* Stats Style */
+.stats_left {
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,.05);
+  text-align: center;
+  padding: 40px 10px;
+  width: 32%;
+  margin-right: 1%;
+}
+
+.stats_left p {
+  font-size: 2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #00a98f;
+}
+
+.stats_left h3 {
+  color: #999;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 1;
+  letter-spacing:1px;
+}
+
+.stats_left i {
+  font-size: 2.5em;
+  color: #00a98f;
+  line-height: 79px;
+  width: 60px;
+  height: 60px;
+}
+
+.stats {
+  background: url(../images/stats.jpg)no-repeat 0px 0px;
+  background-size: cover;
+  padding: 0;
+  min-height: 480px;
+  padding-top: 5em;
+}
+
+.icon {
+  float: left;
+  width: 30%;
+}
+
+.icon_info_agileits {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.skill_info_wthree_agile {
+  margin-top: 4em;
+}
+
+@media(max-width:1440px) {
+  .stats {
+    min-height: 454px;
+    padding-top: 5em;
+  }
+  .skill_info_wthree_agile {
+    margin-top: 3em;
+  }
+}
+
+@media(max-width:1080px) {
+	.stats_left {
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,.05);
+    text-align: center;
+    padding: 40px 1px;
+    width: 32%;
+    margin-right: 1%;
+  }
+  .stats_left h3 {
+    font-size: 10px;
+  }
+  .stats_left {
+    padding: 35px 1px;
+    width: 32%;
+    margin-right: 1%;
+  }
+  .stats {
+    min-height: 428px;
+    padding-top: 5em;
+  }
+}
+
+@media(max-width:991px) {
+  .stats_left {
+    padding: 35px 1px;
+    width: 49%;
+    margin-right:1%;
+    float: left;
+  }
+  .stats_left:nth-child(3) {
+    margin-top:1%;
+  }
+  .stats {
+    min-height: 476px;
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+}
+
+@media(max-width:768px) {
+  .skill_info_wthree_agile {
+    margin-top: 2em;
+  }
+}
+
+@media(max-width:640px) {
+  .stats_left:nth-child(3) {
+    margin-top: 0;
+  }
+  .stats_left {
+    padding: 30px 1px;
+    width: 100%;
+    margin-right: 0;
+    float: left;
+    margin-bottom: 1%;
+  }
+  .stats {
+    min-height: 476px;
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+}
+
+@media(max-width:440px) {
+  .stats {
+    min-height: 476px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+}
+
+@media(max-width:414px) {
+  .skill_info_wthree_agile {
+    margin-top: 1.3em;
+  }
+}
+
+@media(max-width:320px) {
+  .stats_left {
+    padding: 20px 1px;
+    width: 100%;
+    margin-right: 0;
+    float: left;
+    margin-bottom: 1%;
+  }
+  .stats_left h3 {
+    font-size: 10px;
+    line-height: 1.9em;
+  }
+  .stats_left p {
+    font-size: 1.5em;
+  }
+  .stats_left i {
+    font-size: 2em;
+    line-height: 66px;
+  }
+  .stats {
+    min-height: 457px;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  }
+}
+
 /* Contact Information Style */
 .cc-contact-information {
   width: 100%;
@@ -7238,6 +7410,40 @@ Created using IcoMoon - icomoon.io
 @media (max-width: 767px) {
   .cc-contact-information .cc-contact {
     padding: 30px 0px 30px 0px;
+  }
+}
+
+/* Map Style */
+.contact-info-map-right {
+  padding: 0;
+}
+
+#map {
+  width: 100%;
+  height: 524px;
+}
+
+.map iframe {
+  width: 100%;
+  min-height: 400px;
+  border: none;
+  padding: 2em;
+  background: #f5f5f5;
+}
+
+@media(max-width:568px) {
+  .map iframe {
+    width: 100%;
+    min-height: 300px;
+    padding: 1.5em;
+  }
+}
+
+@media(max-width:384px) {
+  .map iframe {
+    width: 100%;
+    min-height: 200px;
+    padding: 1em;
   }
 }
 
@@ -7270,4 +7476,155 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0;
+}
+
+
+
+
+/* Gallery Style */
+
+#photos {
+  padding: 6em 0;
+}
+.agile_inner_info {
+	margin-top: 3em;
+}
+
+p.sub_cap {
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(154, 153, 153, 0.37);
+}
+
+.photos-project h3.text-center {
+	font-size: 40px;
+	font-weight: normal;
+	color: #000;
+	padding-bottom: 50px;
+}
+
+.photos-project .photos-grids a {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+.photos-project .photos-grids img.img-responsive {
+	width: 100%;
+}
+
+.photos-project .b-wrapper {
+  background: #079c87cf;
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  bottom: -100%;
+  left: 0;
+  padding:2em 0 0 0;
+  transition: .5s all;
+  text-align: center;
+}
+
+.photos-project .photos-grids a:hover .b-wrapper {
+	bottom: 0%;
+}
+
+.photos-project i {
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-size: 2em;
+	border: 1px solid rgba(255, 255, 255, 0.58);
+	padding: 10px;
+}
+
+.photos-project .b-wrapper h5 {
+	font-size: 25px;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+	padding: 14px 0;
+}
+
+.photos-project .b-wrapper p {
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	line-height: 1.8em;
+	text-align: center;
+}
+
+.photos-project .photos-grids {
+	margin: 0;
+}
+
+.photos-grids {
+	padding: 0;
+}
+
+.photos-grids_left {
+	padding: 0;
+}
+
+.photos-grids img {
+	width: 100%;
+}
+
+#photos {
+  background: #87509c;
+}
+
+@media(max-width:1440px) {
+	#photos {
+    padding: 5em 0;
+  }
+}
+
+@media(max-width:991px) {
+  .photos-grids {
+    padding: 0;
+    float: left;
+    width: 49%;
+  }
+}
+
+@media(max-width:900px) {
+  #photos {
+    padding: 4em 0;
+  }
+}
+
+@media(max-width:768px) {
+  .photos-grids {
+    padding: 0;
+    float: left;
+    width: 47%;
+  }
+}
+
+@media(max-width:568px){
+	#photos {
+    padding: 3em 0;
+  }
+}
+
+@media(max-width:414px) {
+  #photos {
+    padding: 2.5em 0;
+  }
+}
+
+@media(max-width:384px) {
+  .photos-grids {
+    padding: 0;
+    float: left;
+    width: 46%;
+  }
+}
+
+@media(max-width:320px) {
+  .photos-grids {
+    padding: 0;
+    float: left;
+    width: 100%;
+  }
 }
