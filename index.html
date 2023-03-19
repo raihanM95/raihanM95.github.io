@@ -15,6 +15,7 @@
     <link href="styles/aos.css" rel="stylesheet">
     <link href="styles/bootstrap.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
   </head>
   <body id="top">
     <!--<div class="se-pre-con"></div>-->
@@ -676,9 +677,10 @@
                                   </div>
                                 </div>
                               </div>
+                              <div class="g-recaptcha" data-sitekey="6LdI0RMlAAAAALqn8duax2UVDlulSbJmmSpxOQBK"></div>
                               <div class="row">
                                 <div class="col">
-                                  <button class="btn btn-primary" type="submit">Send</button>
+                                  <button class="btn btn-primary g-recaptcha" type="submit" data-sitekey="6LdI0RMlAAAAALqn8duax2UVDlulSbJmmSpxOQBK" data-callback='onSubmit' data-action='submit'>Send</button>
                                 </div>
                               </div>
                             </form>
@@ -737,6 +739,9 @@
         // Animate loader off screen
         $(".se-pre-con").fadeOut("slow");
       });
+      function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+    };
     </script>
     <!-- //loading-gif js -->
     <!-- stats js -->
